@@ -15,6 +15,7 @@ const ProjectItem = ({
       <div className=" flex place-content-center pt-2 ">
         {usedPackages.map((el, i) => (
           <img
+            key={el}
             className="h-6 m-2 transition ease-in-out delay-50 hover:-translate-y-2 hover:scale-150 duration-300"
             src={el}
             alt={`package${i}`}

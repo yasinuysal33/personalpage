@@ -4,7 +4,7 @@ import Sidebar from "./Sidebar";
 const MainBody = () => {
   return (
     <main className="grid grid-cols-1 md:grid-cols-6 gap-4 ">
-      <div className="col-span-1 rounded-lg mt-4 h-fit shadow-2xl">
+      <div className="col-span-1 mt-4 h-fit">
         <Sidebar />
       </div>
       <div className="col-span-1 md:col-span-4">

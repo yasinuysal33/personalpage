@@ -8,6 +8,7 @@ const Body = () => {
     projects.push(
       <ProjectItem
         image={el.image}
+        key={el.title}
         title={el.title}
         usedPackages={el.usedPackages}
         liveLink={el.liveLink}
