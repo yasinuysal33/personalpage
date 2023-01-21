@@ -8,11 +8,15 @@ const Sidebar = () => {
   const [aboutMe, setAboutMe] = useState("max-h-0");
   const [changeArrowStyle, setChangeArrowStyle] = useState("");
   const [changeBg, setChangeBg] = useState("");
+  const [changeBounce, setChangeBounce] = useState("animate-bounce");
 
   const toggleAboutMe = () => {
     setAboutMe((prev) => (prev === "max-h-0" ? "max-h-[1000px]" : "max-h-0"));
     setChangeArrowStyle((prev) => (prev === "" ? "rotate-180" : ""));
     setChangeBg((prev) => (prev === "" ? "bg-slate-900" : ""));
+    setChangeBounce((prev) =>
+      prev === "animate-bounce" ? "" : "animate-bounce"
+    );
   };
 
   return (
@@ -24,15 +28,17 @@ const Sidebar = () => {
     >
       <div className="flex items-end">
         <img src={yasin} alt="Yasin" className="rounded-full w-36" />
-        <img
-          onClick={toggleAboutMe}
-          src={down}
-          alt="Down"
-          className={cx(
-            changeArrowStyle,
-            "cursor-pointer w-4 transition-all duration-1000"
-          )}
-        />
+        <div className={changeBounce}>
+          <img
+            onClick={toggleAboutMe}
+            src={down}
+            alt="About Me"
+            className={cx(
+              changeArrowStyle,
+              "cursor-pointer w-4 transition-all duration-1000"
+            )}
+          />
+        </div>
       </div>
       <div
         className={cx(

@@ -10,7 +10,7 @@ const ProjectItem = ({
   description,
 }) => {
   return (
-    <div className="flex flex-col bg-gradient-to-b from-slate-50 via-amber-100 to-amber-400 rounded-lg border border-sky-100 shadow-2xl">
+    <div className="flex flex-col bg-gradient-to-b from-slate-200 via-slate-50 to-slate-400 rounded-lg border border-sky-100 shadow-2xl">
       <img src={image} alt={title} className="rounded-lg" />
       <div className=" flex place-content-center pt-2 ">
         {usedPackages.map((el, i) => (
@@ -39,7 +39,7 @@ const ProjectItem = ({
         </a>
       </div>
       <div className="h-15 m-2 text-xs">
-        <p className="font-bold text-lg">{title}</p>
+        <p className="font-bold text-lg text-slate-600">{title}</p>
         {description}
       </div>
     </div>

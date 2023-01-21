@@ -46,7 +46,7 @@ const projectData = [
     liveLink: "https://car-show.yasin-uysal.com/",
     gitLink: "https://github.com/yasinuysal33/carshow-with-react-three-fiber",
     description:
-      "A car show with a realistic 3D model of a moving car, with beatiful light and shadow effects harmonized with postprocessing.",
+      "A car show with a realistic 3D model of a moving car, with beautiful light and shadow effects harmonized with postprocessing.",
   },
 ];
 

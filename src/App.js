@@ -5,8 +5,8 @@ import MainNav from "./ui/MainNav";
 
 function App() {
   return (
-    <div className=" items-center flex flex-col text-gray-600">
-      <div className="bg-slate-400 min-h-[7vh] w-full flex place-items-center">
+    <div className=" items-center flex flex-col text-slate-900">
+      <div className=" min-h-[7vh] w-full flex place-content-center bg-slate-900/75 text-slate-400">
         <MainNav />
       </div>
       <div className="text-center w-[90%] lg:w-[90%]   min-h-[86vh] place-content-center place-items-center ">

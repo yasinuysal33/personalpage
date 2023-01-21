@@ -23,6 +23,7 @@ const Body = () => {
       <div className={classes.wrapper}>
         <div className={classes.bg}> PROJECTS </div>
         <div className={classes.fg}> PROJECTS </div>
+        {/* <div className="text-2xl">PROJECTS</div> */}
       </div>
       <div className=" grid grid-cols-1 md:grid-cols-2 gap-4 gap-y-20 p-10 ">
         {projects}

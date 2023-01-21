@@ -15,3 +15,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.header {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  height: 80px;
+  background-color: #dfebdf;
+}
+
+.threejs {
+  padding: 0;
+  overflow: visible;
+  width: 10%;
+  /* border: 1px #0083cf solid; */
+  position: relative;
+}
+
+.second {
+  /* width: 80%; */
+  background-color: lightblue;
+  /* flex-grow: 1; */
+}
