@@ -40,10 +40,15 @@ const Sidebar = () => {
           />
         </div>
       </div>
+      <div>
+        <div className="pt-1 font-bold">E. Yasin UYSAL</div>
+        <div>Frontend Developer</div>
+        <div className="italic text-sm">Industrial Engineer</div>
+      </div>
       <div
         className={cx(
           aboutMe,
-          "transition-all duration-1000 text-justify overflow-hidden"
+          "transition-all duration-1000 text-justify overflow-hidden font-thin"
         )}
       >
         <SelfIntroduction />

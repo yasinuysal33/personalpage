@@ -2,11 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+    sans-serif; */
+  font-family: "Rajdhani", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -37,4 +44,20 @@ code {
   /* width: 80%; */
   background-color: lightblue;
   /* flex-grow: 1; */
+}
+
+nav div a::after {
+  content: "";
+  box-sizing: border-box;
+  display: block;
+  width: 0;
+  height: 2px;
+  /* background: rgb(148 163 184); */
+  background: #f00;
+  transition: width 0.4s;
+}
+
+nav div a:hover::after {
+  width: 100%;
+  transition: width 0.4s;
 }

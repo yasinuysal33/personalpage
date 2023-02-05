@@ -38,7 +38,7 @@ const ProjectItem = ({
           />
         </a>
       </div>
-      <div className="h-15 m-2 text-xs">
+      <div className="h-15 m-2 text-sm">
         <p className="font-bold text-lg text-slate-600">{title}</p>
         {description}
       </div>
