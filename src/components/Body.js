@@ -32,12 +32,15 @@ const Body = () => {
         {projects}
         <div className="bg-gradient-to-b from-slate-200 via-slate-50 to-slate-400 rounded-lg border border-sky-100 shadow-2xl text-2xl p-4">
           For More Projects{" "}
-          <a href="https://github.com/yasinuysal33">
+          <a
+            href="https://github.com/yasinuysal33"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img className="inline" src={external} alt="external" />
           </a>
         </div>
       </div>
-
       <References />
     </>
   );
