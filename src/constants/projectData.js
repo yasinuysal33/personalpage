@@ -19,7 +19,7 @@ const projectData = [
     liveLink: "https://adf-task-manager.herokuapp.com",
     gitLink: "https://github.com/yasinuysal33/task-monitoring",
     description:
-      "An app for distributing tasks to defined departments. Departments' managers get emails once the task is given. They get notifications each day for the task still not completed before the deadline. Manager and responsibles receive email reports every Friday.",
+      "An app for distributing tasks to defined departments. Departments' managers get emails once the task is given. They get notifications each day for the task still not completed before the deadline. Manager and responsible stuff receive email reports every Friday.",
   },
   {
     title: "Weather App",
@@ -28,7 +28,7 @@ const projectData = [
     liveLink: "https://weather-app.yasin-uysal.com",
     gitLink: "https://github.com/yasinuysal33/weather-app",
     description:
-      "An app for getting the forecast for upcoming 7 days for Turkey. You can search wherever you desire or you can right click on the map to gather weather forecast for a specific location.",
+      "An app for getting the forecast for upcoming 7 days for Turkey by default. Also, you can search wherever you desire in the world or you can right click on the map to gather weather forecast for a specific location.",
   },
   {
     title: "Finding House Close To Office",
@@ -46,7 +46,7 @@ const projectData = [
     liveLink: "https://car-show.yasin-uysal.com/",
     gitLink: "https://github.com/yasinuysal33/carshow-with-react-three-fiber",
     description:
-      "A car show with a realistic 3D model of a moving car, with beautiful light and shadow effects harmonized with postprocessing.",
+      "A car show with a realistic 3D model of a moving car, with beautiful light and shadow effects harmonized with post-processing.",
   },
 ];
 

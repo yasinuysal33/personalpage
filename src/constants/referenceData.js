@@ -7,7 +7,7 @@ const referenceData = [
   {
     name: "Emrah Yaşartürk",
     title: "Senior Frontend Developer",
-    note: "I know Yasin for a long time. Even he workes as a hoby in frontend development, he is more successful than many of my colleagues who do this job for living. I realy liked his weather app, which uses a combination of different sources in an efficinet and fast way. I've already bookmarked his app to follow air forecasts. I'm sure he will be one of top talenst in this business and I'm eager to cooperate with him.",
+    note: "I know Yasin for a long time. Even he works as a hobby in frontend development, he is more successful than many of my colleagues who do this job for living. I really liked his weather app, which uses a combination of different sources in an efficient and fast way. I've already bookmarked his app to follow air forecasts. I'm sure he will be one of the top talents in this business and I'm eager to cooperate with him.",
   },
 ];
 
