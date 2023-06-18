@@ -9,7 +9,7 @@ import { useRef } from "react";
 
 export default function MyRotatingBox(props) {
   const myMesh = useRef();
-  const meshRef = useRef();
+  // const meshRef = useRef();
   const [
     jsicon,
     tsicon,
@@ -156,7 +156,7 @@ export default function MyRotatingBox(props) {
         </mesh>
       </group>
       <OrbitControls />
-      <Environment preset="city" background={false} />
+      <Environment files="./img/potsdamer_platz_1k.hdr" background={false} />
     </>
   );
 }
